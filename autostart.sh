@@ -7,15 +7,14 @@ export XMODIFIERS=@im=fcitx
 LANG=zh_CN.utf8 fcitx &
 
 picom -b
-feh --recursive --randomize --bg-fill ~/github/wa
-llpapers/ghibili
+# feh --recursive --randomize --bg-fill ~/github/wallpapers/ghibili
 
-export PATH=~/.npm-global/bin:$PATH
-
+# dolphin supplicant icon
+export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # custom status bar:
-/bin/bash ~/scripts/dwm-status.sh &
+/bin/bash ~/.config/scripts/dwm-status.sh &
 # change backgroud image:
-/bin/bash ~/scripts/wp-autochange.sh &
+/bin/bash ~/.config/scripts/wp-autochange.sh &
 # start vnc server:
 /bin/bash ~/.vnc/vnc.sh &
