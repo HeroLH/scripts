@@ -12,6 +12,11 @@ picom -b
 # dolphin supplicant icon
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
+# oneko
+oneko -tofocus &
+
+wmname compiz &
+
 # custom status bar:
 /bin/bash ~/.config/scripts/dwm-status.sh &
 # change backgroud image:
